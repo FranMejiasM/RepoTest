@@ -29,5 +29,5 @@ jobs:
           review: True #optional. if true, scan will create a pull request review with inline comments with the issues
           allIssues: True #optional. default false. If true, scan will show blockers and no blocker issues
           version: testing
-          api_url: "https://api-development.qualityclouds.com"
+          api_url: "https://api-staging.qualityclouds.com"
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
