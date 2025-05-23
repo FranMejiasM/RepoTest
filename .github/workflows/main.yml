@@ -31,3 +31,4 @@ jobs:
           version: testing
           api_url: "https://api-staging.qualityclouds.com"
           gitHubToken: ${{ secrets.QC_GITHUB_TOKEN }}
+          pr_fails_on_blockers: True
