@@ -6,7 +6,5 @@ public with sharing class MyFirstClass {
             Account a = [SELECt iD FROM Account LIMIT 1];
             Account a = [SELECt iD FROM Account LIMIT 1];
         }
-
-        Account a = [SELECt iD FROM Account LIMIT 1];
     }
 }
