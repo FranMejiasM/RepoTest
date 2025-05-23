@@ -3,7 +3,7 @@ public with sharing class MyFirstClass {
         system.debug('Hello World');
 
         for (Integer i = 0; i < 10; i++) {
-            Account a = [SELEC iD FROM Account LIMIT 1];
+            Account a = [SELECt iD FROM Account LIMIT 1];
         }
     }
 }
